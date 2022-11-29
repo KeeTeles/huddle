@@ -1,0 +1,77 @@
+/* Aqui no responsivo apesar de trocar o background, lá na visualização aparece o mesmo. 
+E não tem nada pra direita mas cria um espacinho de barra lateral.
+Esse tanto de medias também nao deve ta certo..
+*/
+
+@media(max-width: 687px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        
+    }
+
+    .header{
+        margin-left: 2em;
+        
+    }
+
+    .content{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .illustration img{
+        width: 30em;
+        padding: 0 10px 0 0;
+        
+    }
+
+    .info{
+        width: 25em;
+        padding: 35px 0 0 10px;
+    }
+
+    .info h1{
+        font-size: 2em;
+    }
+
+    .info .register{
+        padding: 10px;
+        width: 80%;
+    }
+
+    .footer{
+        margin: 0;
+        justify-content: right;
+    }
+    
+    
+}
+
+
+
+@media(width: 1024px){
+    .footer{
+        margin: 8em 0 0 70em;
+    }
+
+    .illustration img{
+        width: 32em;
+    }
+}
+
+
+@media(width: 688px){
+    
+    .content{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .footer{
+        margin: 0;
+    }
+
+    .illustration img{
+        width: 30em;
+    }
+}
